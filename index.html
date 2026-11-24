@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heron Santos</title>
+<meta name="description" content="Heron Santos — Gestor de Redes Sociais, Filmmaker e Fotógrafo. Mais de 10 anos de experiência em comunicação digital.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=Caveat:wght@600&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Ícones estilo grafite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-brain" viewBox="0 0 64 64"><path d="M32 12C26 7 16 10 17 19C10 21 10 30 14 33C10 38 14 46 21 45C23 51 30 52 32 48C34 52 41 51 43 45C50 46 54 38 50 33C54 30 54 21 47 19C48 10 38 7 32 12Z"/><path d="M32 12V48M22 26C26 26 29 28 32 29M42 26C38 26 35 28 32 29M21 38C25 38 29 36 32 35M43 38C39 38 35 36 32 35"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 64 64"><path d="M7 10H57V38H7Z"/><path d="M27 17L41 24L27 31Z"/><path d="M7 47H29M35 47H57M7 56H19M25 56H47M31 40V60"/></symbol>
+  <symbol id="i-game" viewBox="0 0 64 64"><path d="M15 22C8 22 3 40 7 47C11 53 18 49 22 42H42C46 49 53 53 57 47C61 40 56 22 49 22Z"/><path d="M22 28V38M17 33H27"/><circle cx="41" cy="30" r="2.5"/><circle cx="48" cy="35" r="2.5"/></symbol>
+</svg>
+
+<!-- Cabeçalho -->
+<header class="nav">
+  <div class="nav-right">
+    <a href="#" class="icon-btn" aria-label="Instagram (link pendente)" title="Instagram — link pendente">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+    </a>
+    <a href="https://wa.me/5521992759788" target="_blank" rel="noopener" class="btn btn-small">Fale comigo</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false">Menu</button>
+  </div>
+</header>
+
+<div class="overlay" id="overlay" aria-hidden="true">
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#formacao">Formação</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#conteudo">Conteúdo</a>
+    <a href="#clientes">Clientes</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</div>
+
+<main id="topo">
+
+<!-- Hero -->
+<section class="hero">
+  <svg class="ico ico-gold" style="top:15%;right:4%;width:96px;--rot:10deg"><use href="#i-brain"/></svg>
+  <svg class="ico ico-green" style="top:13%;left:46%;width:78px;--rot:-8deg"><use href="#i-edit"/></svg>
+  <svg class="ico ico-white" style="bottom:2%;right:2%;width:70px;--rot:-12deg"><use href="#i-game"/></svg>
+  <div class="hero-text">
+    <p class="eyebrow">Filmmaker · Editor de vídeo · Social mídia · Fotógrafo · Designer · Operador e criador por IA</p>
+    <h1 class="logo logo-xl" aria-label="Heron Santos"><span class="tag-l">HERON</span><span class="tag-r">SANTOS</span></h1>
+    <h2 class="hero-title">Heron Santos conta histórias <em>em imagem.</em></h2>
+    <p class="lead">Mais de 10 anos criando comunicação digital para marcas e instituições — da estratégia à imagem, com inteligência artificial no processo de criação, gestão e automação.</p>
+    <div class="actions">
+      <a href="#portfolio" class="btn btn-primary">Ver portfólio</a>
+      <a href="https://wa.me/5521992759788" target="_blank" rel="noopener" class="btn btn-ghost">Falar no WhatsApp</a>
+    </div>
+    <ul class="stats">
+      <li><strong>10+</strong><span>anos de experiência</span></li>
+      <li><strong>3</strong><span>grandes marcas atendidas</span></li>
+      <li><strong>Dezenas</strong><span>de empresas atendidas</span></li>
+    </ul>
+  </div>
+
+  <div class="hero-visual" id="heroVisual">
+    <div class="stack">
+      <div class="tcard c1" style="--img:url(https://img.youtube.com/vi/3R7h1ypUeL4/hqdefault.jpg)"></div>
+      <div class="tcard c2" style="--img:url(https://img.youtube.com/vi/eDLhB7nfVLA/hqdefault.jpg)"></div>
+      <div class="tcard c3" style="--img:url(https://img.youtube.com/vi/7rFIBvFlTp4/hqdefault.jpg)"></div>
+      <a class="tcard c4 featured" href="https://www.youtube.com/watch?v=pPCemq6y-Jo" target="_blank" rel="noopener" style="--img:url(https://img.youtube.com/vi/pPCemq6y-Jo/hqdefault.jpg)">
+        <span class="tag">DOCUMENTÁRIO</span>
+        <b>Niterói Invicta</b>
+        <small>Assistir no YouTube ↗</small>
+      </a>
+    </div>
+    <div class="skill-chips" id="chips">
+      <span class="chip active">Filmmaker</span>
+      <span class="chip">Fotógrafo</span>
+      <span class="chip">Designer</span>
+      <span class="chip">IA</span>
+    </div>
+  </div>
+</section>
+
+<!-- Marcas -->
+<section class="marquee" aria-label="Marcas e lugares atendidos">
+  <div class="track">
+    <span>Estácio</span><span>IBMEC</span><span>Vivo Empresas</span><span>Secretaria de Cultura de Niterói</span><span>SBPC Jovem</span><span>INSP Jacarepaguá</span>
+    <span>Estácio</span><span>IBMEC</span><span>Vivo Empresas</span><span>Secretaria de Cultura de Niterói</span><span>SBPC Jovem</span><span>INSP Jacarepaguá</span>
+  </div>
+</section>
+
+<!-- Sobre -->
+<section class="about reveal" id="sobre">
+  <svg class="ico ico-gold" style="top:40px;right:6%;width:90px;--rot:-8deg"><use href="#i-brain"/></svg>
+  <svg class="ico ico-pink" style="bottom:40px;left:4%;width:80px;--rot:12deg"><use href="#i-game"/></svg>
+  <div class="photo-slot"><img src="img/heron.jpg" alt="Heron Santos trabalhando no notebook"></div>
+  <div class="about-text">
+    <p class="badge">Quem sou eu</p>
+    <h2>Da praia de Angra pra tela de todo mundo.</h2>
+    <p>Sou caiçara, nascido e criado em Angra dos Reis. Peguei numa câmera pela primeira vez aos 10 anos — e não larguei mais. Aos 19, já estava fotografando e filmando casamentos e eventos culturais pela cidade, aprendendo na prática o que nenhuma faculdade ensina sozinha: como estar no momento certo, no lugar certo, pra contar a história certa.</p>
+    <p class="more-p">Formado em História pela UFF e hoje me aprofundando em Comunicação, Marketing Digital e Neurociências, busco unir duas bagagens — a de quem entende narrativa e contexto, e a de quem entende como a mente das pessoas realmente presta atenção, sente e lembra. O resultado é um jeito de fotografar, filmar e comunicar que não é só bonito: é pensado pra gerar conexão de verdade.</p>
+    <p class="more-p">Já atendi grandes marcas como <strong>Estácio</strong>, <strong>IBMEC</strong> e <strong>Vivo Empresas</strong>. Desde 2019 atuo à frente da minha própria agência, a <strong>Jábu Comunicação</strong>, com dezenas de clientes no Rio de Janeiro, São Paulo, Minas Gerais e Brasília — usando inteligência artificial na criação, gestão e automação de conteúdo.</p>
+    <button class="more-btn mobile-only" id="moreBio" type="button">Ler mais +</button>
+    <blockquote class="quote more-p">“Umuntu ngumuntu ngabantu — eu sou porque nós somos.” <small>Filosofia Ubuntu, pensamento africano</small></blockquote>
+    <div class="tags"><span>Angra dos Reis · RJ</span><span>Coordenação de equipes</span><span>Comunicação &amp; Neurociência</span><span>Jábu Comunicação</span></div>
+  </div>
+</section>
+
+<!-- Formação -->
+<section class="formation reveal" id="formacao">
+  <svg class="ico ico-gold" style="top:60px;right:7%;width:92px;--rot:8deg"><use href="#i-brain"/></svg>
+  <p class="badge">Formação</p>
+  <h2>Base acadêmica.</h2>
+  <p class="muted">Bagagem construída entre história, comunicação e ciência do comportamento humano.</p>
+  <div class="edu">
+    <article>
+      <small>Graduação · Concluída 2022</small>
+      <h3>História</h3>
+      <b>Universidade Federal Fluminense (UFF)</b>
+      <p>Base sólida em narrativa, contexto e pesquisa — fundamento de toda construção de história visual que faço hoje.</p>
+    </article>
+    <article>
+      <small>Pós-graduação · Em andamento</small>
+      <h3>Comunicação e Marketing em Mídias Digitais</h3>
+      <b>Universidade Estácio de Sá</b>
+      <p>Aprofundamento em estratégia de comunicação e marketing aplicados às plataformas digitais.</p>
+    </article>
+    <article>
+      <small>Pós-graduação · Em andamento</small>
+      <h3>Neurociências Aplicadas à Aprendizagem</h3>
+      <b>Universidade Federal do Rio de Janeiro (UFRJ)</b>
+      <p>Entender como o cérebro presta atenção, aprende e lembra — aplicado à forma como construo comunicação visual.</p>
+    </article>
+  </div>
+  <h4 class="mini">Idiomas &amp; ferramentas</h4>
+  <div class="tags big">
+    <span>Inglês — Intermediário</span><span>LIBRAS — Intermediário</span><span>Pacote Office</span><span>Adobe</span><span>CapCut</span><span>Canva</span><span>WIX</span><span>WordPress</span><span>Hostinger</span><span>Automação e Criação em IA</span>
+  </div>
+</section>
+
+<!-- Experiência -->
+<section class="experience reveal" id="experiencia">
+  <svg class="ico ico-green" style="top:60px;right:7%;width:92px;--rot:-8deg"><use href="#i-edit"/></svg>
+  <p class="badge">Experiência</p>
+  <h2>Trajetória profissional.</h2>
+  <p class="muted">Mais de dez anos entre fotografia, audiovisual, design e gestão de redes — hoje à frente da própria agência.</p>
+  <ol class="timeline">
+    <li><time>2012 — 2016</time><h3>Início como fotógrafo</h3><p>Casamentos, projetos sociais, shows e teatro pela cidade.</p></li>
+    <li><time>2017 — 2019</time><h3>Assistente de Marketing</h3><p>Estácio · UVA · Ibmec</p></li>
+    <li><time>2019</time><h3>Fundação da Jábu Comunicação</h3><p>Início da própria agência — atuando como MEI desde então.</p></li>
+    <li><time>2020 — 2022</time><h3>Gestor de Redes e Anúncios</h3><p>Estácio · Ibmec · Damásio · Escola Nacional dos Concursos</p></li>
+    <li><time>2022 — 2023</time><h3>Fotógrafo, Filmmaker e Gestor de Redes</h3><p>Instituto Nossa Senhora da Piedade (INSP — Jacarepaguá)</p></li>
+    <li><time>2023 — 2026</time><h3>Fotógrafo, Filmmaker e Gestor de Redes</h3><p>Pela Jábu Comunicação, atendendo Secretaria de Cultura e Vereador Leonardo Giordano, Secretaria das Culturas de Niterói, mentora Carol Barreto, maquiadora Vicky Mebarak, Brotaí Niterói e Centro Eco Cultural Piratininga.</p></li>
+    <li><time>2026 — Atual</time><h3>Fotógrafo do Projeto Bastidores</h3><p>Atuação fotográfica contínua, registrando os bastidores por trás da produção.</p></li>
+    <li class="next"><time>Daqui pra frente</time><h3>Em constante evolução</h3><p>Seguindo em constante aprendizado, trabalhando todos os dias pra me tornar referência em fotografia, filmmaking e comunicação.</p></li>
+  </ol>
+  <button class="btn btn-ghost mobile-only" id="moreTimeline" type="button">Ver trajetória completa</button>
+</section>
+
+<!-- Skills -->
+<section class="skills reveal" id="skills">
+  <svg class="ico ico-green" style="top:50px;right:6%;width:96px;--rot:8deg"><use href="#i-edit"/></svg>
+  <p class="badge">Skills &amp; números</p>
+  <h2>O que eu faço, em números.</h2>
+  <ul class="big-stats">
+    <li><strong>10+</strong><span>anos de experiência</span></li>
+    <li><strong>Dezenas</strong><span>de empresas atendidas</span></li>
+    <li><strong>7+</strong><span>clientes &amp; projetos</span></li>
+  </ul>
+  <div class="pillars">
+    <article style="--bg-img:url(img/redes.jpg)"><i>01</i><h3>Redes Sociais</h3><p>Gestão e estratégia de comunicação digital para marcas e instituições.</p></article>
+    <article style="--bg-img:url(img/filmmaker.jpg)"><i>02</i><h3>Filmmaker &amp; Fotógrafo</h3><p>Produção audiovisual e fotografia para campanhas e eventos.</p></article>
+    <article style="--bg-img:url(img/designer.jpg)"><i>03</i><h3>Designer</h3><p>Identidade visual e peças gráficas para campanhas e marcas.</p></article>
+    <article style="--bg-img:url(img/ia.jpg)"><i>04</i><h3>IA aplicada</h3><p>Criação, gestão e automação de conteúdo com inteligência artificial.</p></article>
+  </div>
+</section>
+
+<!-- Portfólio -->
+<section class="portfolio" id="portfolio">
+  <svg class="ico ico-gold" style="top:80px;right:8%;width:84px;--rot:-10deg"><use href="#i-edit"/></svg>
+  <svg class="ico ico-white" style="top:60px;right:20%;width:70px;--rot:12deg"><use href="#i-game"/></svg>
+  <p class="badge">Portfólio</p>
+  <div class="insta reveal">
+    <h3 class="insta-title">No Instagram</h3>
+    <p class="muted">Uma seleção de trabalhos recentes — clique pra ver no Instagram.</p>
+    <div class="tiles" id="tiles"></div>
+    <div class="center"><button class="btn btn-ghost" id="moreTiles">Ver mais</button></div>
+  </div>
+
+  <div class="section-head vid-head reveal">
+    <h2>Vídeos em destaque.</h2>
+    <p>Seis trabalhos reais — documentário, evento acadêmico, seminário, clipe musical, congresso científico e entrevista.</p>
+  </div>
+  <div class="vcards" id="vcards"></div>
+  <div class="center"><a href="https://wa.me/5521992759788" target="_blank" rel="noopener" class="btn btn-primary">Ver mais</a></div>
+
+</section>
+
+<!-- Conteúdo -->
+<section class="content reveal" id="conteudo">
+  <svg class="ico ico-pink" style="top:60px;right:7%;width:92px;--rot:9deg"><use href="#i-brain"/></svg>
+  <p class="badge">Conteúdo &amp; Fotografia</p>
+  <h2>Redes sociais.</h2>
+  <div class="results" aria-label="Resultados">
+    <button class="shot"><img src="img/resultado-1.jpg" alt="Print de resultado 1"></button>
+    <button class="shot"><img src="img/resultado-2.jpg" alt="Print de resultado 2"></button>
+    <button class="shot"><img src="img/resultado-3.jpg" alt="Print de resultado 3"></button>
+    <button class="shot"><img src="img/resultado-4.jpg" alt="Print de resultado 4"></button>
+    <button class="shot"><img src="img/resultado-5.jpg" alt="Print de resultado 5"></button>
+    <button class="shot"><img src="img/resultado-6.jpg" alt="Print de resultado 6"></button>
+    <button class="shot"><img src="img/resultado-7.jpg" alt="Print de resultado 7"></button>
+    <button class="shot"><img src="img/resultado-8.jpg" alt="Print de resultado 8"></button>
+  </div>
+</section>
+
+<!-- Clientes -->
+<section class="clients reveal" id="clientes">
+  <svg class="ico ico-green" style="top:50px;right:7%;width:92px;--rot:-9deg"><use href="#i-game"/></svg>
+  <p class="badge">Clientes &amp; projetos</p>
+  <h2>Quem já confiou no trabalho.</h2>
+  <ol class="client-list">
+    <li><i>01</i><b>Secretaria de Cultura de Niterói</b><span>Órgão Público</span></li>
+    <li><i>02</i><b>Secretário e Vereador Leonardo Giordano — Niterói</b><span>Político</span></li>
+    <li><i>03</i><b>Polos EAD da Estácio</b><span>Educação</span></li>
+    <li><i>04</i><b>Escola Nacional dos Concursos</b><span>Educação</span></li>
+    <li><i>05</i><b>INSP Jacarepaguá</b><span>Instituição</span></li>
+    <li><i>06</i><b>Centro Cultural Cauby Peixoto</b><span>Cultura</span></li>
+    <li><i>07</i><b>SBPC Jovem 2026</b><span>Ciência &amp; Eventos</span></li>
+    <li><i>08</i><b>Oficina Parque</b><span>Fotografia &amp; Vídeo</span></li>
+  </ol>
+</section>
+
+<!-- Contato -->
+<section class="contact reveal" id="contato">
+  <div class="ico-row">
+    <svg class="ico ico-static ico-gold" style="--rot:-8deg"><use href="#i-brain"/></svg>
+    <svg class="ico ico-static ico-green" style="--rot:5deg"><use href="#i-edit"/></svg>
+    <svg class="ico ico-static ico-white" style="--rot:-6deg"><use href="#i-game"/></svg>
+  </div>
+  <p class="badge">Contato</p>
+  <h2>Vamos conversar sobre o seu próximo projeto?</h2>
+  <div class="contact-links">
+    <a href="https://wa.me/5521992759788" target="_blank" rel="noopener">WhatsApp<b>(21) 99275-9788</b></a>
+    <a href="tel:+5521982871883">Telefone<b>(21) 98287-1883</b></a>
+    <a href="mailto:heron.fss@gmail.com">E-mail<b>heron.fss@gmail.com</b></a>
+  </div>
+</section>
+</main>
+
+<a class="sticky-cta" href="https://wa.me/5521992759788" target="_blank" rel="noopener">Fale comigo no WhatsApp</a>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Heron Santos</span>
+  <a href="#topo">Voltar ao topo ↑</a>
+</footer>
+
+<!-- Modal de vídeo -->
+<div class="modal" id="lightbox" aria-hidden="true"><button class="modal-close" id="lbClose" aria-label="Fechar">✕</button><img id="lbImg" alt="" style="max-height:92vh;max-width:92vw;border-radius:14px"></div>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+  <div class="modal-box"><iframe id="player" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
