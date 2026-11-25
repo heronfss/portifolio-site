@@ -92,12 +92,12 @@ more.onclick = () => { const open = tiles.classList.toggle("all"); more.textCont
 
 // Lightbox dos prints de resultados
 const lb = document.getElementById("lightbox"), lbImg = document.getElementById("lbImg");
-document.querySelectorAll(".shot img").forEach(img => img.parentElement.addEventListener("click", () => { lbImg.src = img.src; lbImg.alt = img.alt; lb.classList.add("open"); }));
+document.querySelectorAll(".shot img,.art img").forEach(img => img.parentElement.addEventListener("click", () => { lbImg.src = img.src; lbImg.alt = img.alt; lb.classList.add("open"); }));
 lb.addEventListener("click", e => { if (e.target !== lbImg) lb.classList.remove("open"); });
 addEventListener("keydown", e => { if (e.key === "Escape") lb.classList.remove("open"); });
 
 // ===== Animações de entrada escalonadas =====
-document.querySelectorAll(".pillars article,.edu article,.tile,.shot,.client-list li,.timeline li,.contact-links a,.big-stats li,.about-text .tags span,.vcard").forEach(el => {
+document.querySelectorAll(".pillars article,.edu article,.tile,.shot,.client-list li,.timeline li,.contact-links a,.big-stats li,.about-text .tags span,.vcard,.art,.site,.num-band li,.reach article,.logos img").forEach(el => {
   if (el.classList.contains("reveal")) return;
   const idx = [...el.parentElement.children].indexOf(el);
   el.style.setProperty("--d", Math.min(idx, 8) * 0.07 + "s");
